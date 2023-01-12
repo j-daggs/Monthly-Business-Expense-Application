@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.piechart.PieChartController">
+    <children>
+        <PieChart fx:id="pieChart" layoutX="270.0" layoutY="22.0" prefHeight="400.0" prefWidth="512.0" title="Monthly Business Expenses" />
+        <Button layoutX="447.0" layoutY="422.0" mnemonicParsing="false" onAction="#generateChart" prefHeight="44.0" prefWidth="157.0" text="LoadChart" />
+
+
+        <TextField fx:id="totalSalesTextField" layoutX="135.0" layoutY="50.0" />
+        <Label layoutX="43.0" layoutY="53.0" text="Total sales $">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+
+        <Label layoutX="96.0" layoutY="82.0" text="Expenses">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+
+        <TextField fx:id="electricTextField" layoutX="135.0" layoutY="120.0" />
+        <Label layoutX="24.0" layoutY="123.0" text="Electricity bill $">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+
+        <TextField fx:id="waterTextField" layoutX="135.0" layoutY="160.0" />
+        <Label layoutX="46.0" layoutY="163.0" text="Water bill $">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+
+        <TextField fx:id="payRollTextField" layoutX="135.0" layoutY="200.0" />
+        <Label layoutX="65.0" layoutY="203.0" text="Pay roll $">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+
+        <TextField fx:id="rentTextField" layoutX="135.0" layoutY="240.0" />
+        <Label layoutX="84.0" layoutY="243.0" text="Rent $">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+
+        <TextField fx:id="officeSuppliesTextField" layoutX="135.0" layoutY="280.0" />
+        <Label layoutX="20.0" layoutY="283.0" text="Office supplies $">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+
+        <TextField fx:id="taxesTextField" layoutX="135.0" layoutY="320.0" />
+        <Label layoutX="81.0" layoutY="323.0" text="Taxes %">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+
+
+
+
+
+
+
+
+    </children>
+</AnchorPane>
